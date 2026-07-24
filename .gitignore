@@ -1,0 +1,83 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Firebase credentials
+firebase-key.json
+firebase-key-*.json
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/dist/
+
+# Mobile
+mobile/node_modules/
+mobile/.expo/
+mobile/.expo-shared/
+mobile/dist/
+mobile/build/
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+**/*.xcworkspace/xcuserdata/
+**/*.xcworkspace/xcshareddata/
+.DS_Store
+
+# Android
+android/.gradle/
+android/local.properties
+android/**/build/
+android/.idea/
+android/**/*.iml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Cache
+.cache/
+*.cache
+
+# Stripe certificates (don't commit)
+certs/
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Certificates and keys (security)
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+
+# Stubs
+stubs/
