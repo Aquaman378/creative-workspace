@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Creative Workspace",
+    "slug": "creative-workspace",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": false,
+      "bundleIdentifier": "com.creativeworkspace.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.creativeworkspace.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@stripe/react-native",
+      [
+        "react-native-image-picker",
+        {
+          "photosPermission": "Allow access to your photos",
+          "cameraPermission": "Allow access to your camera"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your_eas_project_id"
+      }
+    }
+  }
+}
